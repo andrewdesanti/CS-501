@@ -1,3 +1,11 @@
+/*
+
+I pledge my honor that I have abided by the Stevens Honor System.
+Andrew DeSanti
+
+ex 9.1
+
+*/
 public class Rectangle {
     //declare parameters...
     private double height = 1.0;
