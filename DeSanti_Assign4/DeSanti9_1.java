@@ -22,13 +22,13 @@ public class DeSanti9_1{
         System.out.println("Here are two samples from the question:");
 
         System.out.println("Height will be 40 and width will be 4.");
-        sample_rectangle.set_height(40);
-        sample_rectangle.set_width(4);
+        sample_rectangle.setHeight(40);
+        sample_rectangle.setWidth(4);
         sample_rectangle.print();
 
         System.out.println("Height will be 35.9 and width will be 3.5");
-        sample_rectangle.set_height(35.9);
-        sample_rectangle.set_width(3.5);
+        sample_rectangle.setHeight(35.9);
+        sample_rectangle.setWidth(3.5);
         sample_rectangle.print();
 
         System.out.println("Now the program will loop and allow for testing until prompted to stop by the user.");

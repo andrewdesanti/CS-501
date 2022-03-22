@@ -17,7 +17,7 @@ public class DeSanti9_5 {
 
 
         System.out.println("Current Date Information: ");
-        System.out.println("Month: " + now.get(GregorianCalendar.MONTH));
+        System.out.println("Month: " + (1+now.get(GregorianCalendar.MONTH)));
         System.out.println("Day: " + now.get(GregorianCalendar.DAY_OF_MONTH));
         System.out.println("Year: " + now.get(GregorianCalendar.YEAR));
 

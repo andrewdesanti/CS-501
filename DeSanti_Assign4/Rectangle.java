@@ -18,31 +18,31 @@ public class Rectangle {
     {}
     //create a rectangle given width and height with set functions 
     public Rectangle(double new_height, double new_width) throws Exception{
-        set_height(new_height);
-        set_width(new_width);
+        setHeight(new_height);
+        setWidth(new_width);
     }
 
     //create get functions to retrieve values from rectangle object...
-    public double get_height(){
+    public double getHeight(){
         return height;
     }
-    public double get_width(){
+    public double getWidth(){
         return width;
     }
-    public String get_error(){
+    public String getError(){
         return error;
     }
 
     //create set functions to change values of the new rectangle object...
-    public void set_height(double new_height) throws Exception{
+    public void setHeight(double new_height) throws Exception{
         if(new_height < 0) {
             throw new Exception(error);
         }
         height = new_height;
     }
 
-    public void set_width(double new_width) throws Exception{
-        if(!check_valid(new_width)){
+    public void setWidth(double new_width) throws Exception{
+        if(!isValid(new_width)){
             throw new Exception(error);
         }
         width = new_width;
@@ -54,7 +54,7 @@ public class Rectangle {
     public double getPerimeter(){
         return (width + width + height + height);
     }
-    public boolean check_valid(double value){
+    public boolean isValid(double value){
         if(value > 0){
             return true;
         }
@@ -78,11 +78,11 @@ public class Rectangle {
         }
 
         Rectangle Rect = (Rectangle) obj;
-        if(height != Rect.get_height()){
+        if(height != Rect.getHeight()){
             //false if different heights
             return false;
         }
-        if(width != Rect.get_width()){
+        if(width != Rect.getWidth()){
             //false if different widths
             return false;
         }
