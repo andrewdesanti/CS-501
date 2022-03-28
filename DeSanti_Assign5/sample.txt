@@ -1,0 +1,5 @@
+This is a sample text file.
+It is for DeSanti12_13.java.
+It has five lines.
+It has some unknown number of characters.
+It also has some unknown number of words.
