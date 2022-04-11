@@ -1,0 +1,114 @@
+We will test each class. Person, Student, Employee, Faculty, Staff.
+Test the creation of a person.
+Enter the Name as a valid string: 
+Tom
+Enter the Address as a valid string: 
+12 Street 
+Enter the Phone number as a valid string: 
+1231231234
+Enter the Email as a valid string: 
+email@email.com
+=========================
+
+Name :Tom
+Address: 12 Street 
+Phone: 1231231234
+Email: email@email.com
+=========================
+Test the creation of a student.
+Enter the Name as a valid string: 
+Tom
+Enter the Address as a valid string: 
+12 Street
+Enter the Phone number as a valid string: 
+1231231234
+Enter the Email as a valid string: 
+email@email.com
+Enter the Grade as a valid int (0=freshman, 1=sophmore, 2=junior, 3=senior): 
+1
+=========================
+
+Name :Tom
+Address: 12 Street
+Phone: 1231231234
+Email: email@email.com
+Status: SOPHOMORE
+=========================
+Test the creation of an employee.
+Enter the Name as a valid string: 
+Tom
+Enter the Address as a valid string: 
+12 Street
+Enter the Phone number as a valid string: 
+1231231234
+Enter the Email as a valid string: 
+email@email.com
+Enter the Office as a valid int: 
+123
+Enter the Salary as a valid double: 
+123.456
+=========================
+
+Name :Tom
+Address: 12 Street
+Phone: 1231231234
+Email: email@email.com
+Office: 123
+Salary: 123.456
+Hired: 4/10/2022
+=========================
+Test the creation of a faculty.
+Enter the Name as a valid string: 
+Tom
+Enter the Address as a valid string: 
+12 Street
+Enter the Phone number as a valid string: 
+1231231234
+Enter the Email as a valid string: 
+email@email.com
+Enter the Office as a valid int: 
+12
+Enter the Salary as a valid double: 
+123.456
+Enter the Office Hours as a valid string: 
+time to time
+Enter the rank as a valid string: 
+prof
+=========================
+
+Name :Tom
+Address: 12 Street
+Phone: 1231231234
+Email: email@email.com
+Office: 12
+Salary: 123.456
+Hired: 4/10/2022
+Office Hours: time to time
+Rank: prof
+=========================
+Test the creation of a staff.
+Enter the Name as a valid string: 
+Tom
+Enter the Address as a valid string: 
+12 Street
+Enter the Phone number as a valid string: 
+1231231234
+Enter the Email as a valid string: 
+email@email.com
+Enter the Office as a valid int: 
+12
+Enter the Salary as a valid double: 
+123.456
+Enter the title as a valid string: 
+worker
+=========================
+
+Name :Tom
+Address: 12 Street
+Phone: 1231231234
+Email: email@email.com
+Office: 12
+Salary: 123.456
+Hired: 4/10/2022
+Title: worker
+=========================
