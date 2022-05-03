@@ -1,15 +1,13 @@
-package javafx;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-
 import javafx.application.Application;
-import javafx.stage.Stage;
+import javafx.geometry.Insets;
+import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
-import javafx.geometry.Insets;
-import javafx.scene.Scene;
+import javafx.stage.Stage;
+
 
 public class DeSanti14_1 extends Application{
 	@Override
