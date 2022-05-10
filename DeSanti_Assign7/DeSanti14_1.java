@@ -13,10 +13,10 @@ public class DeSanti14_1 extends Application{
 	@Override
 	public void start(Stage primaryStage) throws FileNotFoundException {
 		//load pictures
-		Image i1 = new Image(new FileInputStream("/home/andy/eclipse-workspace/javafx/src/javafx/blue.png"));
-		Image i2 = new Image(new FileInputStream("/home/andy/eclipse-workspace/javafx/src/javafx/green.jpg"));
-		Image i3 = new Image(new FileInputStream("/home/andy/eclipse-workspace/javafx/src/javafx/red.png"));
-		Image i4 = new Image(new FileInputStream("/home/andy/eclipse-workspace/javafx/src/javafx/yellow.png"));
+		Image i1 = new Image(new FileInputStream("blue.png"));
+		Image i2 = new Image(new FileInputStream("green.jpg"));
+		Image i3 = new Image(new FileInputStream("red.png"));
+		Image i4 = new Image(new FileInputStream("yellow.png"));
 		
 		//create the grid
 		GridPane grid = new GridPane();
